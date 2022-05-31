@@ -1,0 +1,122 @@
+body{
+    width: auto;
+    height: 830px;
+    background-color: white;
+    left: 193px;
+    top: 50px;
+    position: absolute;
+    display: block;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+header{
+    height: 40px;
+    display: block;
+    width: 1013px;
+    height: 128px;
+    padding: 0px;
+   
+}
+
+.header_content{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+width: 1013px;
+height: 64px;
+}
+
+
+h1{
+    color: #151B32;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.Userresearch{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+position: absolute;
+width: 1213px;
+height: 830px;
+left: 193px;
+top: 173px;
+
+background: #FFFFFF;
+border-radius: 16px;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 534px;
+height: 56px;
+
+border-radius: 4px;
+
+}
+
+.menu_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 50px;
+}
+
+.Userresearch{
+    display: flex;
+}
+
+.user_container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1013px;
+    height: 208px;
+
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 327px;
+    height: 208px;
+
+    background: #FBFCFF;
+    border-radius: 16px;
+
+}
+
+.picture{
+    width: 97px;
+    height: 97px;
+}
